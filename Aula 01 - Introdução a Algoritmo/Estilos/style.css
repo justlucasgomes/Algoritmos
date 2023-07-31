@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* Reset de margens e paddings */
+body, h1, h2, h3, p, header, main, section, footer {
+    margin: 0;
+    padding: 0px;
+  }
+  
+  /* Estilos gerais para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Um cinza claro para o fundo */
+  }
+  
+  /* Estilos para o header */
+  header {
+    background-color: #fff; /* Branco para o fundo do header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para o header */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 25px 25px;
+  }
+  
+  h1 {
+    padding-top: 10px;
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para o main */
+  main {
+    background-color: #fff; /* Branco para o fundo do main */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve para o main */
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto; /* Centralizando o main */
+    border-radius: 20px 0px 20px 0px;
+  }
+  
+  h2 {
+    padding-top: 20px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    padding-top: 10px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilos para o texto */
+  p {
+    padding-top: 10px;
+    text-align: justify;
+  }
+  
+  /* Estilos para as imagens */
+  img {
+    padding-top: 20px;
+    width: 80%;
+    height: auto; /* Para manter a proporção original */
+    display: block; /* Para evitar espaços indesejados abaixo da imagem */
+    margin: 0 auto; /* Centralizando as imagens */
+  }
+  
+  /* Estilos para o footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Estilos para links */
+  a {
+    text-decoration: none;
+    color: #007bff; /* Azul para os links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Sublinhar o link ao passar o mouse */
+  }
+  

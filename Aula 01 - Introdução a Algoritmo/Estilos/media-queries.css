@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Estilos específicos para dispositivos menores (até 500px) */
+@media screen and (max-width: 500px) {
+    .container {
+      max-width: 500px;
+      margin: 0 auto; /* Centralizando a div .container */
+    }
+  }
+  
+  /* Estilos específicos para dispositivos maiores (acima de 500px) */
+  @media screen and (min-width: 501px) {
+    .container {
+      max-width: 800px;
+      margin: 0 auto; /* Centralizando a div .container */
+    }
+  }
+  
+  
