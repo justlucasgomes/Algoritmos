@@ -9,7 +9,7 @@ body, h1, h2, h3, p, header, main, section, footer {
   /* Estilos gerais para o corpo da página */
   body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2; /* Um cinza claro para o fundo */
+    background-color: #f1fafd; /* Um azul claro para o fundo */
   }
   
   /* Estilos para o header */
@@ -57,13 +57,14 @@ body, h1, h2, h3, p, header, main, section, footer {
   
   /* Estilos para o texto */
   p {
+    margin-bottom: 10px;
     padding-top: 10px;
     text-align: justify;
   }
   
   /* Estilos para as imagens */
   img {
-    padding-top: 20px;
+    border-radius: 10px 10px 10px 10px;
     width: 80%;
     height: auto; /* Para manter a proporção original */
     display: block; /* Para evitar espaços indesejados abaixo da imagem */
